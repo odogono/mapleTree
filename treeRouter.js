@@ -1,8 +1,5 @@
 
-var util = require('util')
-   , events = require('events')
-   , compile = require('./compile.js')
-   , assert = require('assert')
+var compile = require('./compile.js');
 
 //for testing purposes
 //   , DEBUG = false

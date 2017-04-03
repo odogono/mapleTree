@@ -1,18 +1,17 @@
 {
-  "name"           : "mapleTree"
-  , "description"  : "Simple routing library for node.js"
+  "name"           : "odgn-mapletree"
+  , "description"  : "Simple routing library for javascript"
   , "version"      : "0.5.1"
   , "private"      : false
   , "author"       : "Saam Barati <saambarati1@gmail.com>"
-  , "contributors" : [ {"name" : "Saam Barati", "email" : "saambarati1@gmail.com"} ]
+  , "contributors" : [ {"name" : "Alexander Veenendaal", "email" : "alex@odogono.com"}, {"name" : "Saam Barati", "email" : "saambarati1@gmail.com"} ]
   , "repository"   : {
                        "type"  : "git"
-                       , "url" : "https://github.com/saambarati/mapleTree.git"
+                       , "url" : "https://github.com/odogono/mapleTree.git"
                      }
-  , "bugs"         : { "url" : "https://github.com/saambarati/mapleTree/issues" }
+  , "bugs"         : { "url" : "https://github.com/odogono/mapleTree/issues" }
   , "keywords"     : ["router", "routing", "route"]
   , "license"      : "MIT"
-  , "engines"       : { "node" : ">=0.6.11" }
 
   , "main"         : "./treeRouter.js"
   , "scripts" : { "test" : "node ./tests/run.js"}
